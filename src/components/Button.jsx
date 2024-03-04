@@ -4,7 +4,7 @@ const Button = ({ text, type, background, textColor }) => {
   return (
     <button 
         type={type} 
-        className={`my-2 mx-auto block py-1 px-4 rounded ${background} ${textColor} text-sm hover:opacity-85 transition-opacity duration-300 lg:text-md`}>
+        className={`my-2 mx-auto block py-1 px-4 rounded ${background} ${textColor} cursor-pointer text-sm hover:opacity-85 transition-opacity duration-300 lg:text-md`}>
         {text}
     </button>
   )
